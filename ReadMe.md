@@ -1,7 +1,7 @@
 # ~WIP
 
-# TSJunit
-Showcase Java Junit Test framework and restassured framework implementation
+# JunitRestAssuredDemo
+Showcase Java Junit Test framework and RestAssured framework implementation
 
 
 
