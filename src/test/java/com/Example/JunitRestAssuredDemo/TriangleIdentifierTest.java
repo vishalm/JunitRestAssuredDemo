@@ -1,5 +1,7 @@
 package com.Example.JunitRestAssuredDemo;
-import org.junit.Test;
+
+import org.junit.*;
+
 import static com.Example.JunitRestAssuredDemo.TriangleExample.*;
 import static org.junit.Assert.assertEquals;
 
@@ -9,6 +11,33 @@ import static org.junit.Assert.assertEquals;
 
 
 public class TriangleIdentifierTest {
+
+
+    public TriangleIdentifierTest() {
+    }
+
+
+    // Added Before and After for better usage
+    
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+        System.out.println("\nSETUP CLASS Scope");
+    }
+
+    @AfterClass
+    public static void tearDownClass() throws Exception {
+        System.out.println("\nTEARDOWN CLASS Scope");
+    }
+
+    @Before
+    public void setUp() {
+        System.out.println("\nSETUP Scope");
+    }
+
+    @After
+    public void tearDown() {
+        System.out.println("TEARDOWN Scope");
+    }
 
     @Test
     public void testScaleneTriangleExample() throws Exception {
