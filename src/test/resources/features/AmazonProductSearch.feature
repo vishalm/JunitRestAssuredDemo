@@ -6,7 +6,7 @@ Feature: Amazon Product Search
 
   @RegressionTests @SmokeTests
   Scenario: Search for information technology book
-    Given I am on Amazon homepage
+    Given I go to "Amazon homepage"
     When I look for information technology books
     And I search for The Cucumber Book by Matt Wynne and Aslak Hellesoy
     Then I should the book title The Cucumber Book: Behaviour-Driven Development for Testers and Developers (Pragmatic Programmers)

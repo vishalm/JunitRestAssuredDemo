@@ -1,4 +1,4 @@
-package com.amazon.basepage;
+package com.Example.JunitRestAssuredDemo;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.amazon.basepage;
+package com.Example.JunitRestAssuredDemo;
 import net.masterthought.cucumber.ReportBuilder;
 
 import java.io.File;
